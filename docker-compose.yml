@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: wavelocal-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wavelocal
+      MYSQL_USER: wavelocal
+      MYSQL_PASSWORD: wavelocal
+    ports:
+      - "3306:3306"
+    volumes:
+      - wavelocal-mysql:/var/lib/mysql
+
+volumes:
+  wavelocal-mysql:
