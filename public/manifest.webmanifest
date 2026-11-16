@@ -1,0 +1,15 @@
+{
+  "name": "WaveLocal — Your Music, Local & Free",
+  "short_name": "WaveLocal",
+  "description": "A local, copyright-free music library. Upload your own audio and listen anywhere.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1210",
+  "theme_color": "#0d1210",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
